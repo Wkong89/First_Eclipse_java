@@ -23,7 +23,7 @@ public class MainClass01 {
 		// method 호출하기
 		car1.drive();
 		car1.stop();
-				
+	
 		Car car2=new Car();
 		car2.name="람보르기니";
 	    car2.drive();
