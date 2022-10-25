@@ -40,5 +40,18 @@ public class MyObject {
 	// 3개의 type 을 메소드의 인자로 전달 받는 메소드
 	public void doSomething(int num, String msg, Car car) {
 		System.out.println("이렇게 작업합니다.");
-	};
+	}
+	
+	public void send() {
+		System.out.println("무언가를 전송해요");
+	}
+	public void send(int num) {
+		System.out.println(num+" 을 전송해요");
+	}
+	public void send(String name) {
+		System.out.println(name+" 을 전송해요");
+	}
+	public void send(Car car) {
+		System.out.println("자동차를 전송해요");
+	}
 }
