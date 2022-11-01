@@ -1,7 +1,5 @@
 package test.mypac;
 
-import java.util.Random;
-
 public class WowException extends RuntimeException{
 
 	//생성자
