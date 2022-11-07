@@ -3,7 +3,7 @@ package test.main;
 public class MainClass07 {
 	
 	// run 했을때 실행의 흐름이 시작되는 아주 특별한 메소드
-	// main 메소드의 형태는 정해져있다.
+	// -> main 메소드  의 형태는 정해져있다.
 	public static void main(String[] args) {
 		// 지역 변수를 미리 만들고 나중에 필요한 값을 넣고 싶으면 
 		// 초기값을 대입하는 것이 좋다. ex)num=0;, name=null;
